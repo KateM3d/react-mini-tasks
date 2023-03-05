@@ -8,6 +8,7 @@ function App() {
       <div className="list">
         <Link to={"/tree"}>Tree-stucture</Link>
         <Link to={"/memory"}>Memory Game</Link>
+        <Link to={"/dropdown"}>Multi-select Dropdown</Link>
       </div>
     </div>
   );

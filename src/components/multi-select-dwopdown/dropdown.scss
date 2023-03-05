@@ -1,0 +1,30 @@
+body {
+    background: black;
+}
+
+.header {
+    color: purple;
+}
+
+.dropdown {
+    width: 400px;
+    background-color: gainsboro;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.element {
+    padding: 5px;
+}
+
+.selected {
+    background-color: rgb(186, 223, 223);
+}

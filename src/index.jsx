@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.scss";
-import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
-import TreeStructure from "./components/tree-structure/TreeStructure";
 import MemoryGame from "./components/memory-game/MemoryGame";
+import Dropdown from "./components/multi-select-dwopdown/Dropdown";
+import TreeStructure from "./components/tree-structure/TreeStructure";
+import "./index.scss";
+import reportWebVitals from "./reportWebVitals";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/memory",
     element: <MemoryGame />,
+  },
+  {
+    path: "/dropdown",
+    element: <Dropdown />,
   },
 ]);
 
